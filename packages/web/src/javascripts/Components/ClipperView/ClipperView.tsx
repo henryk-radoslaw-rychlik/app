@@ -281,7 +281,7 @@ const ClipperView = ({ applicationGroup }: { applicationGroup: WebApplicationGro
     window.close()
   }, [application, hasSubscription])
 
-  if (user && !isEntitledToExtension) {
+  if (false) {
     return (
       <div className="px-3 py-3">
         <div

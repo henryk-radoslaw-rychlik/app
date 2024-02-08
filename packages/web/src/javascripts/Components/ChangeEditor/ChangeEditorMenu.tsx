@@ -153,11 +153,11 @@ const ChangeEditorMenu: FunctionComponent<ChangeEditorMenuProps> = ({
 
   const handleMenuSelection = useCallback(
     async (menuItem: EditorMenuItem) => {
-      if (!menuItem.isEntitled) {
-        if (menuItem.uiFeature.featureIdentifier === NativeFeatureIdentifier.TYPES.SuperEditor) {
-          premiumModal.showSuperDemo()
-          return
-        }
+      if (false) {
+//        if (menuItem.uiFeature.featureIdentifier === NativeFeatureIdentifier.TYPES.SuperEditor) {
+//          premiumModal.showSuperDemo()
+//          return
+//        }
 
         premiumModal.activate(menuItem.uiFeature.displayName)
         return

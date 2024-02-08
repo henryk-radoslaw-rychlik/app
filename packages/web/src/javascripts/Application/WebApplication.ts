@@ -481,7 +481,8 @@ export class WebApplication extends SNApplication implements WebApplicationInter
   }
 
   entitledToPerTagPreferences(): boolean {
-    return this.hasValidFirstPartySubscription()
+//     return this.hasValidFirstPartySubscription()
+    return true
   }
 
   get entitledToFiles(): boolean {
